@@ -1,0 +1,18 @@
+Libraries used in creating a 3-D portfolion:-
+
+
+@react-three/fiber: This is a React renderer for Three.js — a popular JavaScript 3D library. It allows you to create 3D scenes and effects in a React application using familiar React patterns.
+
+@react-three/drei: This package provides a collection of useful hooks, effects, and helpers to make working with @react-three/fiber even more straightforward. It includes utilities for creating 3D objects, camera controls, and various helpers for common 3D tasks.
+
+maath: MATH is a JavaScript library that provides a set of mathematical operations such as addition, subtraction, multiplication, division, and square root. It can be used in Node.js to perform various tasks that require mathematical calculations.
+
+react-tilt: This is a lightweight React component that enables parallax tilt effects on images and other elements. It allows you to add a subtle 3D parallax effect to your website, enhancing user experience.
+
+react-vertical-timeline-component: This package provides a simple component to create a vertical timeline in a React application. It's commonly used to showcase a series of events or milestones in a chronological order.
+
+@emailjs/browser: This package provides a straightforward way to send emails using JavaScript. It allows you to send emails directly from the client side, which can be useful for applications needing to send notifications or user-generated content.
+
+framer-motion: Framer Motion is a production-ready motion library for React. It enables expressive and fluid animations, helping developers create interactive and visually appealing user interfaces.
+
+react-router-dom: This package provides routing capabilities for React applications. It allows you to create single-page applications with dynamic, client-side routing, enabling navigation between different views or components without a full page reload.
