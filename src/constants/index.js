@@ -13,10 +13,11 @@ import {
   nodejs,
   mongodb,
   git,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  Netflix,
+  vibehub,
+  Memories,
+  FitnessEdge,
 } from "../assets";
 
 export const navLinks = [
@@ -36,16 +37,12 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Data Structures and Algorithm",
     icon: web,
   },
   {
     title: "MERN Developer",
     icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
   },
   {
     title: "Computer Science Student",
@@ -67,16 +64,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -102,9 +91,9 @@ const technologies = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "VibeHub",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A MERN-based social media platform where users can post images, add/remove friends, like/dislike posts, and switch between light and dark mode themes. Features JWT for password encryption and authorization, catering to both existing and new users",
     tags: [
       {
         name: "react",
@@ -115,55 +104,81 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "node",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tailwindCSS",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: vibehub,
+    source_code_link: "https://github.com/Anainwal07/VibeHub",
   },
   {
-    name: "Job IT",
+    name: "Netflix Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A dynamic web application faithfully replicating the sleek and intuitive interface of the original Netflix platform, offering users an immersive and familiar streaming experience, built using HTML, CSS, and JavaScript. ",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Netflix,
+    source_code_link: "https://github.com/Anainwal07/Netflix-India---clone-",
+  },
+  {
+    name: "Memories",
+    description:
+      "A MERN stack project, showcasing a user-friendly blogging website for sharing memories through images and captions. The user can also likes and dislikes the images .",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "node",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tailwindCSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: Memories,
+    source_code_link: "https://github.com/Anainwal07/Memories",
   },
   {
-    name: "Trip Guide",
+    name: "Fitness Edge",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This is the first Project I built and it is also very close to my heart.A web page for my College Gym FitnessEdge built using basic HTML and CSS.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: FitnessEdge,
+    source_code_link: "https://github.com/Anainwal07/Fitness-Edge",
   },
+
 ];
 
 export { services, technologies, projects };

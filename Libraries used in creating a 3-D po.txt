@@ -16,3 +16,10 @@ react-vertical-timeline-component: This package provides a simple component to c
 framer-motion: Framer Motion is a production-ready motion library for React. It enables expressive and fluid animations, helping developers create interactive and visually appealing user interfaces.
 
 react-router-dom: This package provides routing capabilities for React applications. It allows you to create single-page applications with dynamic, client-side routing, enabling navigation between different views or components without a full page reload.
+
+
+
+2. Where can we find the 3D models online 
+
+- TurboSquid
+- sketchfab

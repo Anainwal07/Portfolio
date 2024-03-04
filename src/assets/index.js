@@ -29,6 +29,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import Netflix from "./Netflix.png";
+import vibehub from "./vibehub.png";
+import Memories from "./Memories.png";
+import FitnessEdge from "./FitnessEdge.png";
 
 export {
   logo,
@@ -59,4 +63,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  Netflix,
+  Memories,
+  vibehub,
+  FitnessEdge,
 };
