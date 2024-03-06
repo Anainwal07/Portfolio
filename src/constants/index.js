@@ -18,6 +18,12 @@ import {
   vibehub,
   Memories,
   FitnessEdge,
+  LeetCode,
+  CodingNinjas,
+  LeetCodeicon,
+  CodingNinjaslogo,
+  CNHead,
+  LeetCodeHead,
 } from "../assets";
 
 export const navLinks = [
@@ -181,4 +187,19 @@ const projects = [
 
 ];
 
-export { services, technologies, projects };
+const Coding = [
+  {
+    name: LeetCodeHead,
+    logo: LeetCodeicon,
+    image: LeetCode,
+    source_code_link: "https://leetcode.com/Ankit_Nainwal/",
+  },
+  {
+    name: CNHead,
+    logo: CodingNinjaslogo,
+    image: CodingNinjas,
+    source_code_link: "https://www.codingninjas.com/studio/profile/Ankit_Nainwal",
+  },
+];
+
+export { services, technologies, projects ,Coding};

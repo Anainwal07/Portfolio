@@ -33,8 +33,19 @@ import Netflix from "./Netflix.png";
 import vibehub from "./vibehub.png";
 import Memories from "./Memories.png";
 import FitnessEdge from "./FitnessEdge.png";
+import LeetCode from "./LeetCode.png";
+import CodingNinjas from "./CodingNinjas.png";
+import LeetCodeicon from "./LeetCodeicon.png";
+import CodingNinjaslogo from "./CodingNinjasLogo.png";
+import LeetCodeHead from "./LeetCodeHead.png";
+import CNHead from "./CNHead.png";
+
 
 export {
+  LeetCodeHead,
+  CNHead,
+  LeetCodeicon,
+  CodingNinjaslogo,
   logo,
   backend,
   creator,
@@ -67,4 +78,6 @@ export {
   Memories,
   vibehub,
   FitnessEdge,
+  LeetCode,
+  CodingNinjas,
 };
