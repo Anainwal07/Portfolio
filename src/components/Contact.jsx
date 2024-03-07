@@ -7,11 +7,6 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-
-// template_bzwz4w1
-// service_bkwy1xk
-// YahNZAeg1zYsqXn9_
-
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -42,8 +37,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        'service_bkwy1xk',
+        'template_bzwz4w1',
         {
           from_name: form.name,
           to_name: "Ankit",
@@ -51,7 +46,7 @@ const Contact = () => {
           to_email: "Ankit.nainwal.3150@gmail.com",
           message: form.message,
         },
-        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+        'YahNZAeg1zYsqXn9_'
       )
    
       .then(
