@@ -8,8 +8,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -18,9 +16,8 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import SocketIO from "./tech/SocketIO.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -28,10 +25,9 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import ChatsUp from "./ChatsUp.png" ;
 import Netflix from "./Netflix.png";
 import vibehub from "./vibehub.png";
-import Memories from "./Memories.png";
 import FitnessEdge from "./FitnessEdge.png";
 import LeetCode from "./LeetCode.png";
 import CodingNinjas from "./CodingNinjas.png";
@@ -39,7 +35,6 @@ import LeetCodeicon from "./LeetCodeicon.png";
 import CodingNinjaslogo from "./CodingNinjasLogo.png";
 import LeetCodeHead from "./LeetCodeHead.png";
 import CNHead from "./CNHead.png";
-
 
 export {
   LeetCodeHead,
@@ -55,8 +50,6 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
   git,
   html,
   javascript,
@@ -64,8 +57,8 @@ export {
   nodejs,
   reactjs,
   redux,
+  SocketIO,
   tailwind,
-  typescript,
   threejs,
   meta,
   shopify,
@@ -73,11 +66,10 @@ export {
   tesla,
   carrent,
   jobit,
-  tripguide,
   Netflix,
-  Memories,
   vibehub,
   FitnessEdge,
+  ChatsUp,
   LeetCode,
   CodingNinjas,
 };

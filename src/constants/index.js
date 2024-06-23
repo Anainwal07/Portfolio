@@ -4,7 +4,6 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -16,7 +15,7 @@ import {
   threejs,
   Netflix,
   vibehub,
-  Memories,
+  ChatsUp,
   FitnessEdge,
   LeetCode,
   CodingNinjas,
@@ -24,6 +23,7 @@ import {
   CodingNinjaslogo,
   CNHead,
   LeetCodeHead,
+  SocketIO
 } from "../assets";
 
 export const navLinks = [
@@ -74,6 +74,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Redux",
+    icon: redux,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -90,12 +94,41 @@ const technologies = [
     icon: threejs,
   },
   {
+    name: "SocketIO",
+    icon: SocketIO,
+  },
+  {
     name: "git",
     icon: git,
   },
 ];
 
 const projects = [
+  {
+    name: "ChatsUp",
+    description:
+      "A Real Time chat Application built using MERN stack with the help of Socketio where the users can send messages to other users in real time. Features JWT for password encryption and authorization, catering to both existing and new users",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "node",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "SocketIO",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ChatsUp,
+    source_code_link: "https://github.com/Anainwal07/ChatsUp",
+  },
   {
     name: "VibeHub",
     description:
@@ -141,31 +174,6 @@ const projects = [
     ],
     image: Netflix,
     source_code_link: "https://github.com/Anainwal07/Netflix-India---clone-",
-  },
-  {
-    name: "Memories",
-    description:
-      "A MERN stack project, showcasing a user-friendly blogging website for sharing memories through images and captions. The user can also likes and dislikes the images .",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "node",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tailwindCSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: Memories,
-    source_code_link: "https://github.com/Anainwal07/Memories",
   },
   {
     name: "Fitness Edge",
